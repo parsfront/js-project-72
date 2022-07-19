@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Js Project</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <nav>
+
+                <div class="cart__count">
+                    <i class="fa fa-shopping-cart"></i>
+                    <div class="total__counter">0</div>
+                </div>
+                <div class="logo">
+                    <h1>فروشگاه</h1>
+                </div>
+            </nav>
+
+            <div class="cart">
+                <div class="cart__items">
+
+
+                    <div class="check_out">
+                        <h4 class="total-price">مجموع :</h4>
+                        <h4 class="total__cost">0</h4>
+                        تومان
+                        <button class="btn check_out_btn btn__remove">حذف همه</button>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+
+        <div class="products">
+            <div class="product__element">
+                <input type="hidden" id="product_id" value="1">
+                <img src="./img/1__.png" id="image" alt="">
+                <h4 class="product__name">nike color</h4>
+                <div class="many">
+                    <h5 class="product__price">90000</h5>
+                    <span>تومان</span>
+                </div>
+                <div class="btn_add_to_cart">افزودن به سبد خرید</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" id="product_id" value="2">
+                <img src="./img/2__.png" id="image" alt="">
+                <h4 class="product__name">nike color</h4>
+                <div class="many">
+                    <h5 class="product__price">80000</h5>
+                    <span>تومان</span>
+                </div>
+                <div class="btn_add_to_cart">افزودن به سبد خرید</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" id="product_id" value="3">
+                <img src="./img/3___.png" id="image" alt="">
+                <h4 class="product__name">nike color</h4>
+                <div class="many">
+                    <h5 class="product__price">60000</h5>
+                    <span>تومان</span>
+                </div>
+                <div class="btn_add_to_cart">افزودن به سبد خرید</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
